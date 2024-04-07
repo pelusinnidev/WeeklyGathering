@@ -1,6 +1,7 @@
 # Welcome to Weekly Gathering 🚀
 
 Join us, two technology enthusiasts, on weekly adventures exploring AI, games, and the digital impact. We look forward to having you with us!
+
 [Link to Weekly Gathering Website](https://pelusinnidev.github.io/WeeklyGathering/)
 
 ## Our Schedule 📆

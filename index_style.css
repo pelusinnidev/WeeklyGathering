@@ -92,8 +92,79 @@ h1, h2, h3 {
   text-align: center;
 }
 
+.grid-item p {
+  text-align: justify;
+}
+
+.grid-item img {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+#technews {
+  background: linear-gradient(to right, #4a90e2, #8400ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#mail {
+  background: linear-gradient(to right, #4a90e2, #8400ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* Styles for images inside the grid */
 .grid-item img {
   max-width: 100%; /* Images at 100% width of container */
   height: auto; /* Automatic height to maintain aspect ratio */
+}
+
+/* Footer's CSS */
+
+footer {
+  background-color: #222222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.footer-content {
+  margin-bottom: 20px;
+}
+
+.footer-content h2 {
+  margin-bottom: 10px;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-content ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-content ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-content ul li a:hover {
+  color: #ccc;
 }

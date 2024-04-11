@@ -1,0 +1,144 @@
+/* Body */
+body {
+  background-color: black; 
+  color: white; 
+  font-family: Arial, sans-serif; 
+}
+
+/* Navigation Bar CSS */
+header {
+  background-color: #222222;
+  color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  border-radius: 20px;
+  background-color: #666;
+}
+
+/* FAQ Section */
+#faq {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#faq h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #4a90e2, #8400ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+#faq div {
+  margin-bottom: 40px;
+}
+
+#faq div h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #4a90e2, #8400ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+#faq div p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+#faq div a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq div a:hover {
+  color: #ccc;
+}
+
+/* Link's CSS */
+#technews {
+  background: linear-gradient(to right, #4a90e2, #8400ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#mail {
+  background: linear-gradient(to right, #4a90e2, #8400ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Footer's CSS */
+
+/* Footer CSS */
+footer {
+  background-color: #222222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: fixed;
+  bottom: 20px; 
+  left: 0; 
+  right: 0; 
+}
+
+.footer-content {
+  margin-bottom: 20px;
+}
+
+.footer-content h2 {
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #4a90e2, #8400ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-content ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-content ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-content ul li a:hover {
+  color: #ccc;
+}

@@ -1,3 +1,9 @@
+/* Desktop Version*/
+
+.Mobile {
+    display: none;
+}
+
 /* Body */
 body {
   background-color: black;
@@ -86,6 +92,8 @@ nav a:hover {
 
 .grid-item p {
   text-align: justify;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .grid-item h2 {

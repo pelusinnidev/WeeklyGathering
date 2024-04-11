@@ -1,4 +1,8 @@
-/* Desktop Version*/
+/* Desktop Version */
+
+.Mobile-Working {
+    display: none;
+}
 
 .Mobile {
     display: none;
@@ -169,4 +173,29 @@ footer {
 
 .footer-content ul li a:hover {
   color: #ccc;
+}
+
+/* Mobile Version Working */
+
+/* Estilos específicos para la versión móvil */
+@media only screen and (max-width: 480px) {
+    /* Oculta los elementos que no quieres mostrar en móvil */
+    .Desktop {
+      display: none;
+    }
+  
+    /* Muestra los elementos que quieres en móvil */
+    .Mobile-Working {
+      display: block;
+    }
+  
+    /* Ajusta los estilos según sea necesario para la versión móvil */
+    .Mobile-Working h1,
+    .Mobile-Working h2,
+    .Mobile-Working img {
+      /* Estilos específicos para los headings e imagen en la versión móvil */
+      /* Por ejemplo: */
+      text-align: center;
+      margin: 20px;
+    }
 }

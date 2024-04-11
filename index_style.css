@@ -1,77 +1,68 @@
 /* Body */
 body {
-  background-color: black; 
-  color: white; 
+  background-color: black;
+  color: white;
   font-family: 'Galvji', sans-serif;
 }
 
 /* Navigation Bar CSS */
-  header {
-    background-color: #222222;
-    color: #fff;
-    padding: 40px;
-    border-radius: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 2%;
-  }
+header {
+  background-color: #222222;
+  color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
 
-  nav {
-    text-align: center;
-  }
+nav {
+  text-align: center;
+}
 
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
-  nav a:hover {
-    border-radius: 20px;
-    background-color: #666;
-  }
+nav a:hover {
+  border-radius: 20px;
+  background-color: #666;
+}
 
 /* #Intro CSS */
+#intro {
+  position: relative; /* Ensure the container is a positioning context */
+  text-align: center; /* Center the content horizontally */
+}
 
-  #intro {
-    position: relative; /* Ensure the container is a positioning context */
-    text-align: center; /* Center the content horizontally */
-  }
+#intro h1 {
+  font-size: 64px;
+  text-align: center; /* Center the text horizontally */
+  background: linear-gradient(to right, #4a90e2, #8400ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-  #intro h1 {
-    font-size: 64px;
-    text-align: center; /* Center the text horizontally */
-    background: linear-gradient(to right, #4a90e2, #8400ff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-  }
+#intro img {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  display: block; /* Ensure the image behaves like a block */
+  margin: 0 auto; /* Center the image horizontally */
+}
 
-  #intro img {
-    width: 400px;
-    height: 400px;
-    border-radius: 20px;
-    display: block; /* Ensure the image behaves like a block */
-    margin: 0 auto; /* Center the image horizontally */
-  }
-
-  #intro h2 {
-    font-size: 32px;
-    text-align: center; /* Center the text horizontally */
-    background: linear-gradient(to right, #4a90e2, #8400ff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-  }
-
-/**/
-h1, h2, h3 {
-  background: linear-gradient(to right, #4a90e2, #8400ff); /* Gradient as background */
-  background-clip: text; /* Standard property */
-  -webkit-background-clip: text; /* For older WebKit browsers */
-  -webkit-text-fill-color: transparent; 
+#intro h2 {
+  font-size: 32px;
+  text-align: center; /* Center the text horizontally */
+  background: linear-gradient(to right, #4a90e2, #8400ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Styles for the grid container */
@@ -90,42 +81,45 @@ h1, h2, h3 {
 .grid-item {
   padding: 20px;
   text-align: center;
+  align-content: center;
 }
 
 .grid-item p {
   text-align: justify;
 }
 
+.grid-item h2 {
+  font-size: 32px;
+  text-align: center; /* Center the text horizontally */
+  background: linear-gradient(to right, #4a90e2, #8400ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .grid-item img {
   display: block;
   max-width: 100%;
-  max-height: 100%; 
+  max-height: 100%;
   border-radius: 20px;
   margin: 0 auto;
 }
 
 #technews {
   background: linear-gradient(to right, #4a90e2, #8400ff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #mail {
   background: linear-gradient(to right, #4a90e2, #8400ff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/* Styles for images inside the grid */
-.grid-item img {
-  max-width: 100%; /* Images at 100% width of container */
-  height: auto; /* Automatic height to maintain aspect ratio */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Footer's CSS */
-
 footer {
   background-color: #222222;
   color: #fff;

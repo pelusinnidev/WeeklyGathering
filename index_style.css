@@ -177,25 +177,30 @@ footer {
 
 /* Mobile Version Working */
 
-/* Estilos específicos para la versión móvil */
 @media only screen and (max-width: 480px) {
-    /* Oculta los elementos que no quieres mostrar en móvil */
+
     .Desktop {
       display: none;
     }
   
-    /* Muestra los elementos que quieres en móvil */
     .Mobile-Working {
       display: block;
     }
   
-    /* Ajusta los estilos según sea necesario para la versión móvil */
-    .Mobile-Working h1,
-    .Mobile-Working h2,
+    .Mobile-Working h1 {
+        text-align: center;
+        font-size: 20px;
+    } 
+    
+    .Mobile-Working h2 {
+        text-align: center;
+        font-size: 16px;
+    }
+
     .Mobile-Working img {
-      /* Estilos específicos para los headings e imagen en la versión móvil */
-      /* Por ejemplo: */
       text-align: center;
-      margin: 20px;
+      margin: 2%;
+      width: 100px;
+      height: auto;
     }
 }

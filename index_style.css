@@ -2,7 +2,7 @@
 body {
   background-color: black; 
   color: white; 
-  font-family: Arial, sans-serif; 
+  font-family: 'Galvji', sans-serif;
 }
 
 /* Navigation Bar CSS */
@@ -97,10 +97,10 @@ h1, h2, h3 {
 }
 
 .grid-item img {
-  max-width: 250px;
-  max-height: 250px;
-  border-radius: 20px;
   display: block;
+  max-width: 100%;
+  max-height: 100%; 
+  border-radius: 20px;
   margin: 0 auto;
 }
 

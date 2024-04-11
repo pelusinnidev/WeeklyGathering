@@ -176,15 +176,13 @@ footer {
 }
 
 /* Mobile Version Working */
-
 @media only screen and (max-width: 480px) {
-
     .Desktop {
-      display: none;
+        display: none;
     }
   
     .Mobile-Working {
-      display: block;
+        display: block;
     }
   
     .Mobile-Working h1 {
@@ -198,9 +196,9 @@ footer {
     }
 
     .Mobile-Working img {
-      text-align: center;
-      margin: 2%;
-      width: 100px;
-      height: auto;
+        text-align: center;
+        margin: 2%;
+        width: 100px;
+        height: auto;
     }
 }

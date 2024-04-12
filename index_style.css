@@ -1,11 +1,10 @@
 /* Desktop Version */
-
-.Mobile-Working {
-    display: none;
+.Desktop-Version {
+  display: block;
 }
 
-.Mobile {
-    display: none;
+.Mobile-Version {
+  display: none;
 }
 
 /* Body */
@@ -44,12 +43,12 @@ nav a:hover {
 }
 
 /* #Intro CSS */
-#intro {
+#intro-Desktop {
   position: relative; /* Ensure the container is a positioning context */
   text-align: center; /* Center the content horizontally */
 }
 
-#intro h1 {
+#intro-Desktop h1 {
   font-size: 64px;
   text-align: center; /* Center the text horizontally */
   background: linear-gradient(to right, #4a90e2, #8400ff);
@@ -58,7 +57,7 @@ nav a:hover {
   -webkit-text-fill-color: transparent;
 }
 
-#intro img {
+#intro-Desktop img {
   width: 400px;
   height: 400px;
   border-radius: 20px;
@@ -66,7 +65,7 @@ nav a:hover {
   margin: 0 auto; /* Center the image horizontally */
 }
 
-#intro h2 {
+#intro-Desktop h2 {
   font-size: 32px;
   text-align: center; /* Center the text horizontally */
   background: linear-gradient(to right, #4a90e2, #8400ff);
@@ -175,52 +174,28 @@ footer {
   color: #ccc;
 }
 
-/* Mobile Version Working */
+/* Mobile Version */
 @media only screen and (max-width: 480px) {
 
-  .Desktop {
+  .Desktop-Version {
     display: none;
+  }
+
+  .Mobile-Version {
+    display: block;
   }
 
   header {
     display: none;
   }
 
-  .Mobile-Working {
-    display: block;
-  }
-
-  .Mobile-Working-Text {
-    margin-top: 10%;
-  }
-
-  .Mobile-Working-Text h1 {
-      font-size: 20px;
-  }
-
-  .Mobile-Working-Text h2 {
-      font-size: 14px;
-  }
-
-  .Mobile-Working-Img {
-      display: flex;
-      justify-content: center; /* Center the image horizontally */
-      margin-top: 12%;
-  }
-
-  .Mobile-Working-Img img {
-      width: 250px;
-      height: 180px;
-      border-radius: 20px;
-  }
-
   footer {
-      position: fixed;
-      bottom: 0; /* Fixed to the bottom of the viewport */
-      background-color: #222222;
-      color: #fff;
-      text-align: center;
-      border-radius: 20px;
+    position: fixed;
+    bottom: 0;
+    background-color: #222222;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 5% 20px;
   }
-
 }

@@ -1,3 +1,8 @@
+/* Desktop Version */
+.Mobile-Working {
+  display: none;
+}
+
 /* Body */
 body {
   background-color: black; 
@@ -180,6 +185,28 @@ footer {
       width: 250px;
       height: 180px;
       border-radius: 20px;
+  }
+
+  footer {
+      position: fixed;
+      bottom: 0; /* Fixed to the bottom of the viewport */
+      background-color: #222222;
+      color: #fff;
+      text-align: center;
+      border-radius: 20px;
+  }
+
+}
+
+/* Mobile Version Working */
+@media only screen and (max-width: 480px) {
+
+  header {
+    display: none;
+  }
+
+  #faq {
+    display: none;
   }
 
   footer {

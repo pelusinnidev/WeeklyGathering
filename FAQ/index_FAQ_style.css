@@ -42,7 +42,7 @@ nav a:hover {
 #faq h2 {
   font-size: 32px;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 5%;
   background: linear-gradient(to right, #4a90e2, #8400ff);
   background-clip: text;
   -webkit-background-clip: text;
@@ -103,7 +103,7 @@ footer {
   margin-left: 5%;
   margin-right: 5%;
   position: fixed;
-  bottom: 20px; 
+  bottom: 0; 
   left: 0; 
   right: 0; 
 }
@@ -141,4 +141,54 @@ footer {
 
 .footer-content ul li a:hover {
   color: #ccc;
+}
+
+/* Mobile Version Working */
+@media only screen and (max-width: 480px) {
+
+  .Desktop {
+    display: none;
+  }
+
+  header {
+    display: none;
+  }
+
+  .Mobile-Working {
+    display: block;
+  }
+
+  .Mobile-Working-Text {
+    margin-top: 10%;
+  }
+
+  .Mobile-Working-Text h1 {
+      font-size: 20px;
+  }
+
+  .Mobile-Working-Text h2 {
+      font-size: 14px;
+  }
+
+  .Mobile-Working-Img {
+      display: flex;
+      justify-content: center; /* Center the image horizontally */
+      margin-top: 12%;
+  }
+
+  .Mobile-Working-Img img {
+      width: 250px;
+      height: 180px;
+      border-radius: 20px;
+  }
+
+  footer {
+      position: fixed;
+      bottom: 0; /* Fixed to the bottom of the viewport */
+      background-color: #222222;
+      color: #fff;
+      text-align: center;
+      border-radius: 20px;
+  }
+
 }

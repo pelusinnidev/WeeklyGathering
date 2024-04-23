@@ -1,0 +1,48 @@
+{
+    "es": {
+      "navbar": {
+        "inicio": "Inicio",
+        "episodios": "Episodios",
+        "faq": "FAQ"
+      },
+      "intro": {
+        "title": "Weekly Gathering",
+        "subtitle": "¡Tu podcast \"techy\" de confianza! 🎧"
+      },
+      "where_to_listen": {
+        "title": "¿Dónde nos puedes escuchar?"
+      },
+      "countdown": {
+        "title": "Nuevo episodio cada miércoles"
+      },
+      "social_media": {
+        "title": "¡Conéctate con Nosotros!"
+      },
+      "footer": {
+        "copyright": "© 2024 Weekly Gathering. Todos los derechos reservados."
+      }
+    },
+    "en": {
+      "navbar": {
+        "inicio": "Home",
+        "episodios": "Episodes",
+        "faq": "FAQ"
+      },
+      "intro": {
+        "title": "Weekly Gathering",
+        "subtitle": "Your trusted \"techy\" podcast! 🎧"
+      },
+      "where_to_listen": {
+        "title": "Where to listen?"
+      },
+      "countdown": {
+        "title": "New episode every Wednesday"
+      },
+      "social_media": {
+        "title": "Connect with Us!"
+      },
+      "footer": {
+        "copyright": "© 2024 Weekly Gathering. All rights reserved."
+      }
+    }
+}  

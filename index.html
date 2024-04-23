@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+<<<<<<< Updated upstream
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,4 +67,72 @@
 
       <script src="index.json" type="application/json"></script>
   </body>
+=======
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Resources/Icon.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Galvji&display=swap" rel="stylesheet">
+    <title>Weekly Gathering</title>
+    <link rel="stylesheet" href="index_style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="burger-menu" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div id="navbar-links" class="navbar-links">
+                <a class="link" data-key="navbar:inicio" href="#">Inicio</a>
+                <a class="link" data-key="navbar:episodios" href="#">Episodios</a>
+                <a class="link" data-key="navbar:faq" href="#">FAQ</a>
+                <div class="language-selector">
+                    <select id="language-selector" onchange="updateLanguage()">
+                        <option value="es">Español</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content">
+        <div class="intro">
+            <h1 data-key="intro:title">Weekly Gathering</h1>
+            <img src="Resources/PodcastCover.jpg" alt="Podcast Cover Image">
+            <h2 data-key="intro:subtitle">Tu podcast "techy" de confianza! 🎧</h2>
+        </div>
+
+        <div class="where-to-listen">
+            <h2 class="scroll-title" data-key="where_to_listen:title"></h2>
+            <div class="platforms">
+                <a href="#" class="platform-link"><img src="Resources/apple_music_logo.png" alt="Apple Music"></a>
+                <a href="#" class="platform-link"><img src="Resources/spotify_logo.png" alt="Spotify"></a>
+            </div>
+        </div>
+
+        <div class="countdown">
+            <h2 class="scroll-title" data-key="countdown:title"></h2>
+            <p>Próximo episodio en:</p>
+            <div id="countdown-timer"></div>
+        </div>
+
+        <div class="social-media">
+            <h2 class="scroll-title" data-key="social_media:title"></h2>
+            <a href="#" class="social-link"><img src="Resources/instagram_logo.png" alt="Instagram"></a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="rights-reserved">
+            <p data-key="footer:copyright"></p>
+        </div>
+    </footer>
+
+    <script src="index.json" type="application/json"></script>
+</body>
+>>>>>>> Stashed changes
 </html>
